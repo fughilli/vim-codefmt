@@ -227,3 +227,7 @@ call s:plugin.Flag('luaformatterfiveone_executable', 'luaformatterfiveone')
 ""
 " The path to the cljstyle executable.
 call s:plugin.Flag('cljstyle_executable', 'cljstyle')
+
+""
+" The path to the txtpbfmt executable.
+call s:plugin.Flag('txtpbfmt_executable', 'txtpbfmt')
